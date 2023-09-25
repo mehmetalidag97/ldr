@@ -1,8 +1,8 @@
 namespace ldr {
     /**
-     * Read the LDR value (0-1023).
+     * Read the LDR Value (0-1023).
      */
-    //% block
+    //% blldr.readValue()ock
     export function readValue(): number {
         // Implement your code here to read the LDR value from your module
         // You can use pins and analogRead to read the value
